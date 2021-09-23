@@ -1,0 +1,94 @@
+* {
+  text-align: center;
+}
+#tabela {
+  width: 100%;
+  height: 100%;
+  float: center;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 900px;
+  background-image: url("https://wallpapercave.com/wp/wp3093876.png");
+  background-color: #111;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 300px;
+}
+
+.page-logo2 {
+  width: 50%;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+table {
+  border: 2px solid white;
+  border-collapse: collapse;
+}
+
+h1 {
+  color: white;
+}
+
+th,
+tr,
+td {
+  border: solid 1px white;
+  color: white;
+}
+
+span {
+  display: none;
+}
+
+tr.win #emoji {
+  display: inline-flex;
+}
+
+.fix {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  bottom: 0px;
+}
+
+/*
+Desafios desta aula!
+
+	- Validar se todos os pontos estão fazendo sentido, tanto o número de empates, 
+	quanto derrotas e vitórias com os demais jogadores (impossível haver mais vitórias 
+	que derrotas, por exemplo)
+	
+	- Adicionar a imagem de cada jogador
+	
+	- Criar um botão e inputs (campos de texto) para adicionar novos jogadores, com seus 
+	respectivos dados
+	
+	- Utilizar seu jogo preferido para se basear na pontuação da sua tabela de classificação
+*/
